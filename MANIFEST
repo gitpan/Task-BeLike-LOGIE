@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST
+META.yml
+Makefile.PL
+README
+README.md
+README.mkdn
+dist.ini
+lib/Task/BeLike/LOGIE.pm
+t/release-pod-coverage.t
+t/release-pod-syntax.t
+t/task-bogus.t

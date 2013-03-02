@@ -12,7 +12,7 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "Everyone wants to be like me!",
   "AUTHOR" => "Logan Bell <loganbell\@gmail.com>",
   "BUILD_REQUIRES" => {
-    "Test::More" => 0
+    "Test::Most" => 0
   },
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
@@ -31,11 +31,9 @@ my %WriteMakefileArgs = (
     "Plack" => 0,
     "Test::Most" => 0,
     "Try::Tiny" => 0,
-    "namespace::autoclean" => 0,
-    "strict" => 0,
-    "warnings" => 0
+    "namespace::autoclean" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }

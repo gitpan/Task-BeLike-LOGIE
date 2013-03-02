@@ -1,8 +1,11 @@
 use strict;
 use warnings;
 package Task::BeLike::LOGIE;
+BEGIN {
+  $Task::BeLike::LOGIE::AUTHORITY = 'cpan:LOGIE';
+}
 {
-  $Task::BeLike::LOGIE::VERSION = '0.001';
+  $Task::BeLike::LOGIE::VERSION = '0.02';
 }
 
 # ABSTRACT: Everyone wants to be like me!
@@ -17,7 +20,7 @@ Task::BeLike::LOGIE - Everyone wants to be like me!
 
 =head1 VERSION
 
-version 0.001
+version 0.02
 
 =head1 TASK CONTENTS
 
@@ -42,8 +45,6 @@ version 0.001
 =head3 L<Try::Tiny>
 
 =head3 L<namespace::autoclean>
-
-1;
 
 =head1 AUTHOR
 

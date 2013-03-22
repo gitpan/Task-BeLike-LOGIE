@@ -28,7 +28,7 @@ resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Task-BeLike-LOGIE
   homepage: http://metacpan.org/release/Task-BeLike-LOGIE
   repository: git://github.com/logie17/task-belike-logie.git
-version: 0.02
+version: 0.03
 x_Dist_Zilla:
   perl:
     version: 5.016002
@@ -39,136 +39,140 @@ x_Dist_Zilla:
         Dist::Zilla::Plugin::Prereqs:
           phase: test
           type: requires
-      name: '@LOGIE/TestMoreDoneTesting'
+      name: '@Author::LOGIE/TestMoreDoneTesting'
       version: 4.300030
     -
       class: Dist::Zilla::Plugin::GatherDir
-      name: '@LOGIE/GatherDir'
+      name: '@Author::LOGIE/GatherDir'
       version: 4.300030
     -
       class: Dist::Zilla::Plugin::PruneCruft
-      name: '@LOGIE/PruneCruft'
+      name: '@Author::LOGIE/PruneCruft'
       version: 4.300030
     -
       class: Dist::Zilla::Plugin::ManifestSkip
-      name: '@LOGIE/ManifestSkip'
+      name: '@Author::LOGIE/ManifestSkip'
       version: 4.300030
     -
       class: Dist::Zilla::Plugin::MetaYAML
-      name: '@LOGIE/MetaYAML'
+      name: '@Author::LOGIE/MetaYAML'
       version: 4.300030
     -
       class: Dist::Zilla::Plugin::License
-      name: '@LOGIE/License'
+      name: '@Author::LOGIE/License'
       version: 4.300030
     -
       class: Dist::Zilla::Plugin::Readme
-      name: '@LOGIE/Readme'
+      name: '@Author::LOGIE/Readme'
       version: 4.300030
     -
       class: Dist::Zilla::Plugin::ExtraTests
-      name: '@LOGIE/ExtraTests'
+      name: '@Author::LOGIE/ExtraTests'
       version: 4.300030
     -
       class: Dist::Zilla::Plugin::ExecDir
-      name: '@LOGIE/ExecDir'
+      name: '@Author::LOGIE/ExecDir'
       version: 4.300030
     -
       class: Dist::Zilla::Plugin::ShareDir
-      name: '@LOGIE/ShareDir'
+      name: '@Author::LOGIE/ShareDir'
       version: 4.300030
     -
       class: Dist::Zilla::Plugin::MakeMaker
-      name: '@LOGIE/MakeMaker'
+      name: '@Author::LOGIE/MakeMaker'
       version: 4.300030
     -
       class: Dist::Zilla::Plugin::Manifest
-      name: '@LOGIE/Manifest'
+      name: '@Author::LOGIE/Manifest'
       version: 4.300030
     -
       class: Dist::Zilla::Plugin::TestRelease
-      name: '@LOGIE/TestRelease'
+      name: '@Author::LOGIE/TestRelease'
       version: 4.300030
     -
       class: Dist::Zilla::Plugin::ConfirmRelease
-      name: '@LOGIE/ConfirmRelease'
+      name: '@Author::LOGIE/ConfirmRelease'
       version: 4.300030
     -
       class: Dist::Zilla::Plugin::MetaConfig
-      name: '@LOGIE/MetaConfig'
+      name: '@Author::LOGIE/MetaConfig'
       version: 4.300030
     -
       class: Dist::Zilla::Plugin::MetaJSON
-      name: '@LOGIE/MetaJSON'
+      name: '@Author::LOGIE/MetaJSON'
       version: 4.300030
     -
       class: Dist::Zilla::Plugin::NextRelease
-      name: '@LOGIE/NextRelease'
+      name: '@Author::LOGIE/NextRelease'
       version: 4.300030
     -
       class: Dist::Zilla::Plugin::CheckChangesHasContent
-      name: '@LOGIE/CheckChangesHasContent'
+      name: '@Author::LOGIE/CheckChangesHasContent'
       version: 0.006
     -
       class: Dist::Zilla::Plugin::PkgVersion
-      name: '@LOGIE/PkgVersion'
+      name: '@Author::LOGIE/PkgVersion'
       version: 4.300030
     -
       class: Dist::Zilla::Plugin::Authority
-      name: '@LOGIE/Authority'
+      name: '@Author::LOGIE/Authority'
       version: 1.006
     -
       class: Dist::Zilla::Plugin::PodCoverageTests
-      name: '@LOGIE/PodCoverageTests'
+      name: '@Author::LOGIE/PodCoverageTests'
       version: 4.300030
     -
       class: Dist::Zilla::Plugin::PodSyntaxTests
-      name: '@LOGIE/PodSyntaxTests'
+      name: '@Author::LOGIE/PodSyntaxTests'
       version: 4.300030
     -
       class: Dist::Zilla::Plugin::NoTabsTests
-      name: '@LOGIE/NoTabsTests'
+      name: '@Author::LOGIE/NoTabsTests'
       version: 0.01
     -
       class: Dist::Zilla::Plugin::EOLTests
-      name: '@LOGIE/EOLTests'
+      name: '@Author::LOGIE/EOLTests'
       version: 0.02
     -
       class: Dist::Zilla::Plugin::Test::Compile
-      name: '@LOGIE/Test::Compile'
+      name: '@Author::LOGIE/Test::Compile'
       version: 1.112820
     -
       class: Dist::Zilla::Plugin::Metadata
-      name: '@LOGIE/Metadata'
+      name: '@Author::LOGIE/Metadata'
       version: 3.03
     -
       class: Dist::Zilla::Plugin::MetaResources
-      name: '@LOGIE/MetaResources'
+      name: '@Author::LOGIE/MetaResources'
       version: 4.300030
     -
       class: Dist::Zilla::Plugin::Git::Check
-      name: '@LOGIE/Git::Check'
+      name: '@Author::LOGIE/Git::Check'
       version: 2.009
     -
       class: Dist::Zilla::Plugin::Git::Commit
-      name: '@LOGIE/Git::Commit'
+      name: '@Author::LOGIE/Git::Commit'
       version: 2.009
     -
       class: Dist::Zilla::Plugin::Git::Tag
-      name: '@LOGIE/Git::Tag'
+      name: '@Author::LOGIE/Git::Tag'
       version: 2.009
     -
       class: Dist::Zilla::Plugin::Git::NextVersion
-      name: '@LOGIE/Git::NextVersion'
+      name: '@Author::LOGIE/Git::NextVersion'
       version: 2.009
     -
       class: Dist::Zilla::Plugin::TaskWeaver
-      name: '@LOGIE/TaskWeaver'
+      name: '@Author::LOGIE/TaskWeaver'
       version: 0.101624
     -
       class: Dist::Zilla::Plugin::UploadToCPAN
-      name: '@LOGIE/UploadToCPAN'
+      name: '@Author::LOGIE/UploadToCPAN'
       version: 4.300030
+    -
+      class: Dist::Zilla::Plugin::Twitter
+      name: '@Author::LOGIE/Twitter'
+      version: 0.020
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':InstallModules'

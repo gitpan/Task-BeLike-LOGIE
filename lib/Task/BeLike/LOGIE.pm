@@ -5,7 +5,7 @@ BEGIN {
   $Task::BeLike::LOGIE::AUTHORITY = 'cpan:LOGIE';
 }
 {
-  $Task::BeLike::LOGIE::VERSION = '0.02';
+  $Task::BeLike::LOGIE::VERSION = '0.03';
 }
 
 # ABSTRACT: Everyone wants to be like me!
@@ -20,7 +20,7 @@ Task::BeLike::LOGIE - Everyone wants to be like me!
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 TASK CONTENTS
 
